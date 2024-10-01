@@ -1,6 +1,5 @@
 #!/bin/bash
-source ./config.sh
-AUTH=$(echo -ne "$FROXLOR_API_KEY:$FROXLOR_API_SECRET" | base64 --wrap 0)
+
 
 while IFS="," read -r col1 col2 col3 col4 col5
 do
